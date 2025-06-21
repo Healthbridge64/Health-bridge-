@@ -147,13 +147,18 @@
   <h2>Contact Us</h2>
   <p>Want to try HealthBridge for your clinic or team? Fill out the form below and we’ll reach out.</p>
   <form action="https://formsubmit.co/hareemabdullah6464@gmail.com" method="POST">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" rows="4" placeholder="Tell us what you need..." required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</section>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+
 
 <footer>
   &copy; 2025 HealthBridge. All rights reserved.
